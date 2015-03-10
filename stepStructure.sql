@@ -118,3 +118,12 @@ CREATE TABLE TPinterview(
 PROMPT '....TPinterview table created'
 
 PROMPT 'student confirmed for interview table in creation'
+
+CREATE TABLE confirmedForInterview(
+	studId 			NUMBER(10),
+	preferenceCode 	NUMBER(5)
+);
+
+PROMPT 'student confirmed for interview table created'
+
+-- PROMPT 'preference table is in creation'
