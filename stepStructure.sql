@@ -106,3 +106,15 @@ CREATE TABLE selected(
 );
 
 PROMPT '....selected table created'
+
+PROMPT '....TPinterview table is in creation'
+
+CREATE TABLE TPinterview(
+	candidate_Id NUMBER(10),
+	timeOfInterView VARCHAR(5),
+	contactNunber NUMBER(12)
+);
+
+PROMPT '....TPinterview table created'
+
+PROMPT 'student confirmed for interview table in creation'
